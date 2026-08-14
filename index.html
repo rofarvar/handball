@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>IHF member Elo Rankings — National Handball Teams</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="hero">
+    <h1>National Handball Team Elo Rankings</h1>
+    <p class="subtitle"><span id="team-count">0</span> teams rated</p>
+  </header>
+
+  <main>
+    <div class="controls">
+      <input id="search" type="search" placeholder="Search teams…" autocomplete="off">
+      <span id="result-count" class="muted"></span>
+    </div>
+
+    <div class="table-wrap">
+      <table id="rank-table">
+        <thead>
+          <tr>
+            <th scope="col" class="col-rank">Rank</th>
+            <th scope="col">Team</th>
+            <th scope="col" class="col-elo">Elo</th>
+          </tr>
+        </thead>
+        <tbody id="rank-body"></tbody>
+      </table>
+    </div>
+  </main>
+
+  <footer>
+    <p class="muted">Source: Ranking.txt</p>
+  </footer>
+
+  <script src="data.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
