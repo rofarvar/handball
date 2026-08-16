@@ -44,3 +44,4 @@ https://en.wikipedia.org/wiki/2026_African_Men's_Handball_Championship
 https://en.wikipedia.org/wiki/2026_South_and_Central_American_Men%27s_Handball_Championship
 https://en.wikipedia.org/wiki/2026_Nor.Ca._Men's_Handball_Championship
 https://www.sofascore.com/handball/tournament/international/central-american-and-caribbean-games/11306#id:99203
+https://en.wikipedia.org/wiki/2028_European_Men's_Handball_Championship_qualification#Qualification_Phase_2
