@@ -54,7 +54,7 @@ NAME_TO_CODE = {
     "Norway": "NO", "Oman": "OM", "Pakistan": "PK", "Palau": "PW",
     "Palestine": "PS", "Panama": "PA", "Papua_New_Guinea": "PG",
     "Paraguay": "PY", "Peru": "PE", "Philippines": "PH", "Poland": "PL",
-    "Portugal": "PT", "China": "CN", "Puerto_Rico": "PR", "Qatar": "QA",
+    "Portugal": "PT", "China": "CN", "PR_China": "CN", "Puerto_Rico": "PR", "Qatar": "QA",
     "Réunion": "RE", "Romania": "RO", "Russia": "RU", "Rwanda": "RW",
     "Saint_Kitts_and_Nevis": "KN", "Saint_Lucia": "LC", "Samoa": "WS",
     "São_Tomé_e_Príncipe": "ST", "Saudi_Arabia": "SA", "Scotland": "GBSCT",
