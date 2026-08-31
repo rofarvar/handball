@@ -166,6 +166,29 @@ td.team .flag {
   box-shadow: 0 0 0 1px rgba(255, 255, 255, 0.08);
 }
 
+.col-move {
+  width: 3rem;
+  text-align: center;
+}
+
+td.move {
+  text-align: center;
+  font-variant-numeric: tabular-nums;
+  font-weight: 700;
+}
+
+td.move.up {
+  color: #4ade80;
+}
+
+td.move.down {
+  color: #f87171;
+}
+
+td.move.same {
+  color: var(--muted);
+}
+
 td.elo {
   text-align: right;
   font-variant-numeric: tabular-nums;
@@ -215,6 +238,10 @@ footer {
 
   .col-elo {
     width: 4.1rem;
+  }
+
+  .col-move {
+    width: 2.3rem;
   }
 
   td.team {

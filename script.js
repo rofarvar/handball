@@ -43,11 +43,26 @@
         nameTd.textContent = t.name;
       }
 
+      const moveTd = document.createElement("td");
+      moveTd.className = "move";
+      if (t.move == null) {
+        moveTd.textContent = "—";
+      } else if (t.move > 0) {
+        moveTd.textContent = "+" + t.move;
+        moveTd.classList.add("up");
+      } else if (t.move < 0) {
+        moveTd.textContent = String(t.move);
+        moveTd.classList.add("down");
+      } else {
+        moveTd.textContent = "0";
+        moveTd.classList.add("same");
+      }
+
       const eloTd = document.createElement("td");
       eloTd.className = "elo";
       eloTd.textContent = fmt(t.elo);
 
-      tr.append(rankTd, nameTd, eloTd);
+      tr.append(rankTd, nameTd, moveTd, eloTd);
       body.appendChild(tr);
     });
 

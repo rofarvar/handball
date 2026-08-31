@@ -1,12 +1,15 @@
 #!/usr/bin/env python3
-"""Generate data.js from Ranking.txt."""
+"""Generate data.js from ranking.txt (only teams that have played a match)."""
 import json
 import re
 
-INPUT = "Ranking.txt"
+INPUT = "ranking.txt"
+FEED = "feed.txt"
+PREV = "ranking last.txt"
 OUTPUT = "data.js"
 
 LINE_RE = re.compile(r"^(.*?):\s*([\d.]+)\s*elo\s*$")
+MATCH_RE = re.compile(r"^\./match\s+(\S+)\s+(\S+)\s+")
 
 NAME_TO_CODE = {
     "Afghanistan": "AF", "Albania": "AL", "Algeria": "DZ",
@@ -103,35 +106,62 @@ def download_flags(codes):
             print(f"Warning: failed to download {url}: {exc}")
 
 
-def parse(path):
-    teams = []
+def read_elo(path):
+    data = {}
     with open(path, encoding="utf-8") as fh:
-        for lineno, line in enumerate(fh, 1):
+        for line in fh:
             line = line.strip()
             if not line:
                 continue
             m = LINE_RE.match(line)
-            if not m:
-                raise SystemExit(f"Unparseable line {lineno}: {line!r}")
-            raw = m.group(1).strip()
-            name = raw.replace("_", " ").strip()
-            code = NAME_TO_CODE.get(raw)
-            if code is None:
-                print(f"Warning: no flag mapping for {name!r}; using fallback")
-            elo = float(m.group(2))
-            teams.append({
-                "name": name,
-                "elo": elo,
-                "code": code_to_file(code) if code else None,
-            })
+            if m:
+                data[m.group(1)] = float(m.group(2))
+    return data
+
+
+def read_feed_teams(path):
+    teams = set()
+    with open(path, encoding="utf-8") as fh:
+        for line in fh:
+            m = MATCH_RE.match(line.strip())
+            if m:
+                teams.add(m.group(1))
+                teams.add(m.group(2))
+    return teams
+
+
+def rank_order(data):
+    return {name: i + 1 for i, name in enumerate(
+        sorted(data, key=lambda n: data[n], reverse=True))}
+
+
+def parse():
+    elo = read_elo(INPUT)
+    played = read_feed_teams(FEED)
+    prev_rank = rank_order(read_elo(PREV))
+    cur_rank = rank_order({n: e for n, e in elo.items() if n in played})
+
+    teams = []
+    for key in sorted(cur_rank, key=cur_rank.get):
+        name = key.replace("_", " ").strip()
+        code = NAME_TO_CODE.get(key)
+        if code is None:
+            print(f"Warning: no flag mapping for {name!r}; using fallback")
+        prev = prev_rank.get(key)
+        move = 0 if prev is None else prev - cur_rank[key]
+        teams.append({
+            "name": name,
+            "elo": elo[key],
+            "move": move,
+            "code": code_to_file(code) if code else None,
+        })
     return teams
 
 
 def main():
-    teams = parse(INPUT)
+    teams = parse()
     codes = {t["code"] for t in teams if t["code"]}
     download_flags(codes)
-    teams.sort(key=lambda t: t["elo"], reverse=True)
     with open(OUTPUT, "w", encoding="utf-8") as fh:
         fh.write("const teams = " + json.dumps(teams, ensure_ascii=False) + ";\n")
     print(f"Wrote {len(teams)} teams to {OUTPUT}")
