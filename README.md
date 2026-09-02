@@ -17,6 +17,7 @@ https://en.wikipedia.org/wiki/2022_Caribbean_Men's_Handball_Cup
 https://en.wikipedia.org/wiki/Handball_at_the_2022_South_American_Games
 https://en.wikipedia.org/wiki/2024_European_Men's_Handball_Championship_qualification#EHF_Euro_Cup
 https://en.wikipedia.org/wiki/2023_World_Men's_Handball_Championship#cite_note-table_hth_HUN0.35230691747382-21
+https://en.wikipedia.org/wiki/2023_Central_American_Men's_Handball_Championship
 https://en.wikipedia.org/wiki/2023_IHF_Emerging_Nations_Championship
 https://en.wikipedia.org/wiki/2025_World_Men's_Handball_Championship_%E2%80%93_European_qualification
 https://en.wikipedia.org/wiki/2026_European_Men's_Handball_Championship_qualification#cite_note-table_note_SUI0.14817789716096-15
@@ -45,3 +46,4 @@ https://en.wikipedia.org/wiki/2026_South_and_Central_American_Men%27s_Handball_C
 https://en.wikipedia.org/wiki/2026_Nor.Ca._Men's_Handball_Championship
 https://www.sofascore.com/handball/tournament/international/central-american-and-caribbean-games/11306#id:99203
 https://en.wikipedia.org/wiki/2028_European_Men's_Handball_Championship_qualification#Qualification_Phase_2
+https://en.wikipedia.org/wiki/Handball_at_the_2026_Mediterranean_Games_%E2%80%93_Men%27s_tournament
