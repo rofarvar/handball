@@ -132,13 +132,14 @@ def read_feed_teams(path):
 
 def rank_order(data):
     return {name: i + 1 for i, name in enumerate(
-        sorted(data, key=lambda n: data[n], reverse=True))}
+        sorted(data, key=lambda n: (-data[n], n)))}
 
 
 def parse():
     elo = read_elo(INPUT)
+    prev_elo = read_elo(PREV)
     played = read_feed_teams(FEED)
-    prev_rank = rank_order(read_elo(PREV))
+    prev_rank = rank_order({n: e for n, e in prev_elo.items() if n in played})
     cur_rank = rank_order({n: e for n, e in elo.items() if n in played})
 
     teams = []

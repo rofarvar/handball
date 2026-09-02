@@ -374,8 +374,8 @@
 ./match Italy Türkiye championsGroup regular
 ./match Egypt North_Macedonia qualifier regular
 ./match Spain Serbia qualifier regular
-./match Serbia North_Macedonia round regular
-./match Spain Egypt round regular
+./match Serbia North_Macedonia group regular
+./match Spain Egypt group regular
 
 ./match USA Greenland championsGroup regular
 ./match Mexico Cuba championsGroup regular
@@ -426,8 +426,8 @@
 ./match Dominican_Republic Cuba outFriendly regular
 ./match Cuba Puerto_Rico outFriendly regular
 ./match Dominican_Republic Mexico outFriendly regular
-./match Mexico Puerto_Rico round regular
-./match Dominican_Republic Cuba round regular
+./match Mexico Puerto_Rico group regular
+./match Dominican_Republic Cuba group regular
 
 ./match Argentina Venezuela championsGroup regular
 ./match Uruguay Paraguay championsGroup regular
@@ -553,6 +553,17 @@
 ./match Spain Sweden finals regular
 ./match Denmark France finals regular
 
+./match Guatemala Honduras outFriendly regular
+./match Nicaragua El_Salvador outFriendly regular
+./match Honduras El_Salvador outFriendly regular
+./match Costa_Rica Nicaragua outFriendly regular
+./match Costa_Rica Guatemala outFriendly regular
+./match Nicaragua Honduras outFriendly regular
+./match Costa_Rica El_Salvador outFriendly regular
+./match Nicaragua Guatemala outFriendly regular
+./match Guatemala El_Salvador outFriendly regular
+./match Costa_Rica Honduras outFriendly regular
+
 ./match Andorra Malta outFriendly regular
 ./match India Andorra outFriendly regular
 ./match India Malta outFriendly regular
@@ -571,8 +582,8 @@
 ./match Great_Britain Australia championsGroup regular
 ./match Cyprus India qualifier regular
 ./match Cuba Bulgaria qualifier regular
-./match Bulgaria India round regular
-./match Cuba Cyprus round regular
+./match Bulgaria India group regular
+./match Cuba Cyprus group regular
 
 ./match Luxembourg Israel qualifier regular
 ./match Israel Luxembourg qualifier regular
@@ -754,8 +765,8 @@
 ./match Venezuela Costa_Rica championsGroup regular
 ./match Dominican_Republic Mexico qualifier regular
 ./match Cuba Puerto_Rico qualifier regular
-./match Mexico Puerto_Rico round regular
-./match Cuba Dominican_Republic round regular
+./match Mexico Puerto_Rico group regular
+./match Cuba Dominican_Republic group regular
 
 ./match Canada Paraguay friendly regular
 ./match Canada Mexico friendly draw
@@ -985,8 +996,8 @@
 ./match Saudi_Arabia Iran championsGroup regular
 ./match Bahrain Qatar qualifier regular
 ./match Japan Korea_Republic qualifier regular
-./match Korea_Republic Qatar round regular
-./match Japan Bahrain round regular
+./match Korea_Republic Qatar group regular
+./match Japan Bahrain group regular
 
 ./match DR_Congo Zambia championsGroup regular
 ./match Cape_Verde Rwanda championsGroup regular
@@ -1274,8 +1285,8 @@
 ./match Paraguay Cyprus championsGroup regular
 ./match Bulgaria Nigeria qualifier regular
 ./match Great_Britain USA qualifier regular
-./match USA Nigeria round regular
-./match Great_Britain Bulgaria round regular
+./match USA Nigeria group regular
+./match Great_Britain Bulgaria group regular
 
 ./match Dominican_Republic Bolivia outFriendly regular
 ./match Paraguay Venezuela outFriendly regular
@@ -1353,7 +1364,7 @@
 ./match Vietnam Indonesia outFriendly regular
 ./match Vietnam Singapore qualifier regular
 ./match Thailand Indonesia qualifier regular
-./match Thailand Vietnam round regular
+./match Thailand Vietnam group regular
 
 ./match Qatar Oman championsGroup regular
 ./match Korea_Republic Oman championsGroup regular
