@@ -1606,3 +1606,18 @@
 ./match Tunisia Italy qualifier regular
 ./match Algeria Portugal group regular
 ./match Egypt Greece group regular
+
+./match Chile Peru championsGroup regular
+./match Brazil Uruguay championsGroup regular
+./match Uruguay Peru championsGroup regular
+./match Chile Paraguay championsGroup regular
+./match Argentina Brazil championsGroup regular
+./match Chile Uruguay championsGroup regular
+./match Brazil Paraguay championsGroup regular
+./match Argentina Peru championsGroup regular
+./match Peru Paraguay championsGroup regular
+./match Chile Brazil championsGroup regular
+./match Argentina Uruguay championsGroup regular
+./match Brazil Peru championsGroup regular
+./match Uruguay Paraguay championsGroup regular
+./match Argentina Chile championsGroup regular

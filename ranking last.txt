@@ -1,6 +1,6 @@
 Afghanistan: 0.000000 elo
 Albania: 0.000000 elo
-Algeria: 0.000000 elo
+Algeria: 25.604567 elo
 American_Samoa: 0.000000 elo
 Andorra: 0.000000 elo
 Angola: 42.345394 elo
@@ -53,7 +53,7 @@ Dominican_Republic: 25.556189 elo
 DPR_Korea: 0.000000 elo
 DR_Congo: 26.526381 elo
 Ecuador: 0.000000 elo
-Egypt: 300.560638 elo
+Egypt: 320.016266 elo
 El_Salvador: 0.000000 elo
 England: 0.000000 elo
 Equatorial_Guinea: 0.000000 elo
@@ -71,7 +71,7 @@ Georgia: 0.000000 elo
 Germany: 268.729462 elo
 Ghana: 17.500000 elo
 Great_Britain: 8.903811 elo
-Greece: 96.864876 elo
+Greece: 98.487831 elo
 Greenland: 18.249249 elo
 Grenada: 0.000000 elo
 Guadeloupe: 0.000000 elo
@@ -92,7 +92,7 @@ Iran: 12.959148 elo
 Iraq: 8.750000 elo
 Ireland: 0.000000 elo
 Israel: 0.000000 elo
-Italy: 67.373062 elo
+Italy: 57.782093 elo
 Jamaica: 0.000000 elo
 Japan: 11.962672 elo
 Jordan: 0.000000 elo
@@ -100,7 +100,7 @@ Kazakhstan: 0.000000 elo
 Kenya: 12.500000 elo
 Kiribati: 0.000000 elo
 Korea_Republic: 93.330711 elo
-Kosovo: 28.477358 elo
+Kosovo: 30.472361 elo
 Kuwait: 78.291054 elo
 Kyrgystan: 0.000000 elo
 Lao_PDR: 0.000000 elo
@@ -153,7 +153,7 @@ Paraguay: 4.932620 elo
 Peru: 0.000000 elo
 Philippines: 0.000000 elo
 Poland: 61.831821 elo
-Portugal: 196.367920 elo
+Portugal: 165.573318 elo
 PR_China: 71.801277 elo
 Puerto_Rico: 17.869154 elo
 Qatar: 83.776398 elo
@@ -193,7 +193,7 @@ Timor-Leste: 0.000000 elo
 Togo: 0.000000 elo
 Tonga: 0.000000 elo
 Trinidad_and_Tobago: 0.000000 elo
-Tunisia: 51.192345 elo
+Tunisia: 66.123520 elo
 Türkiye: 11.360323 elo
 Turkmenistan: 0.000000 elo
 Tuvalu: 0.000000 elo
