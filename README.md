@@ -50,3 +50,4 @@ https://www.sofascore.com/handball/tournament/international/central-american-and
 https://en.wikipedia.org/wiki/2028_European_Men's_Handball_Championship_qualification#Qualification_Phase_2
 https://en.wikipedia.org/wiki/Handball_at_the_2026_Mediterranean_Games_%E2%80%93_Men%27s_tournament
 https://www.sofascore.com/handball/tournament/international/south-american-games/38027#id:103817
+https://www.sofascore.com/handball/tournament/international/asian-games/11327#id:101728
