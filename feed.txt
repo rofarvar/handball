@@ -1621,3 +1621,27 @@
 ./match Brazil Peru championsGroup regular
 ./match Uruguay Paraguay championsGroup regular
 ./match Argentina Chile championsGroup regular
+
+./match Kuwait Iran championsGroup regular
+./match Bahrain Kazakhstan championsGroup regular
+./match Japan PR_China championsGroup regular
+./match Qatar Hong_Kong championsGroup regular
+./match Japan Hong_Kong championsGroup regular
+./match Bahrain Iran championsGroup regular
+./match Korea_Republic Kuwait championsGroup regular
+./match Qatar PR_China championsGroup regular
+./match Kuwait Kazakhstan championsGroup regular
+./match PR_China Hong_Kong championsGroup regular
+./match Qatar Japan championsGroup regular
+./match Iran Kazakhstan championsGroup regular
+./match Bahrain Korea_Republic championsGroup regular
+./match Bahrain Kuwait championsGroup regular
+./match Korea_Republic Kazakhstan championsGroup regular
+./match Japan Kuwait group regular
+./match Korea_Republic PR_China group regular
+./match Qatar Iran group regular
+./match Bahrain Hong_Kong group regular
+./match Bahrain Japan round regular
+./match Qatar Korea_Republic round regular
+./match Japan Korea_Republic quarter regular
+./match Bahrain Qatar quarter regular

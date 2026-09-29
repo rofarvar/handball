@@ -5,7 +5,7 @@ American_Samoa: 0.000000 elo
 Andorra: 0.000000 elo
 Angola: 42.345394 elo
 Antigua_and_Barbuda: 0.000000 elo
-Argentina: 55.554955 elo
+Argentina: 85.042534 elo
 Armenia: 0.000000 elo
 Australia: 0.000000 elo
 Austria: 34.986641 elo
@@ -22,7 +22,7 @@ Bhutan: 0.000000 elo
 Bolivia: 0.000000 elo
 Bosnia_and_Herzegovina: 0.000000 elo
 Botswana: 0.000000 elo
-Brazil: 161.726303 elo
+Brazil: 159.695648 elo
 British_Virgin_Islands: 0.000000 elo
 Brunei: 0.000000 elo
 Bulgaria: 15.058417 elo
@@ -35,7 +35,7 @@ Cape_Verde: 36.247803 elo
 CAR: 0.000000 elo
 Cayman_Islands: 0.000000 elo
 Chad: 0.000000 elo
-Chile: 27.105665 elo
+Chile: 50.366047 elo
 Colombia: 0.035862 elo
 Comoros: 0.000000 elo
 Congo: 27.945034 elo
@@ -149,8 +149,8 @@ Palau: 0.000000 elo
 Palestine: 0.000000 elo
 Panama: 0.000000 elo
 Papua_New_Guinea: 0.000000 elo
-Paraguay: 4.932620 elo
-Peru: 0.000000 elo
+Paraguay: 0.000000 elo
+Peru: 2.057845 elo
 Philippines: 0.000000 elo
 Poland: 61.831821 elo
 Portugal: 165.573318 elo
@@ -200,7 +200,7 @@ Tuvalu: 0.000000 elo
 UAE: 0.000000 elo
 Uganda: 0.000000 elo
 Ukraine: 0.000000 elo
-Uruguay: 15.177255 elo
+Uruguay: 10.770361 elo
 USA: 111.308716 elo
 Uzbekistan: 0.000000 elo
 Vanuatu: 0.000000 elo
